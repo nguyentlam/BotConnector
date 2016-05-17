@@ -1,0 +1,14 @@
+{
+  "name": "connector",
+  "version": "1.0.0",
+  "description": "A sample bot for getting started with Bot Framework",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "botconnector": "^0.9.6",
+    "ms-rest": "^1.13.1",
+    "restify": "^4.0.4"
+  }
+}
