@@ -8,8 +8,8 @@ server.use(restify.authorizationParser());
 server.use(restify.bodyParser());
 
 // Initialize credentials for connecting to Bot Connector Service
-var appId = process.env.appId || 'YourAppId';
-var appSecret = process.env.appSecret || 'YourAppSecret';
+var appId = process.env.appId || 'Antbuddy';
+var appSecret = process.env.appSecret || 'c34dd41c3def4e30817e8406d59e772a';
 var credentials = new msRest.BasicAuthenticationCredentials(appId, appSecret);
 
 // Handle incoming message
