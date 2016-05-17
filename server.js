@@ -19,7 +19,7 @@ server.post('/v1/messages', verifyBotFramework(credentials), function (req, res)
         // Delay sending the reply for 5 seconds
         setTimeout(function () {
             var reply = { 
-               // replyToMessageId: msg.id,
+                replyToMessageId: msg.id,
                 to: msg.from,
                 from: msg.to,
                 text: 'I heard "' + msg.text.substring(6) + '"'
